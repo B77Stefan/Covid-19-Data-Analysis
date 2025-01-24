@@ -25,6 +25,7 @@ This portfolio demonstrates SQL expertise in analysing COVID-19 data, focusing o
 
 ### Data Sources
 |Source|Link|
+|----|----|
 |Covid_Deaths|https://example.com|
 |Covid_Vaccinations|https://example.com|
 
