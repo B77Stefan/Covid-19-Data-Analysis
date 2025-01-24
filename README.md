@@ -13,6 +13,27 @@ This portfolio demonstrates SQL expertise in analysing COVID-19 data, focusing o
 - SQL - data analysis [Download here](https://www.microsoft.com)
 - Power BI - creating the report [Download here](https://www.microsoft.com)
 
-  ## Data Sources
-  1. Covid_Deaths
-  2. Covid_Vaccinations
+## Data Sources
+1. Covid_Deaths
+2. Covid_Vaccinations
+
+## Data cleaning
+
+## Exploratory Data Analysis
+
+## Data Analysis
+CTE functions used to produce the vaccination rate ratio
+```SQL
+WITH PopvsVac (continent, location, date, population, new_vaccinations, RollingPeopleVaccinated) AS
+			  (
+				SELECT DEA.CONTINENT, DEA.LOCATION, DEA.DATE, DEA.POPULATION, VAC.NEW_VACCINATIONS, 
+				SUM(CONVERT(INT,VAC.NEW_VACCINATIONS)) OVER (PARTITION BY DEA.LOCATION ORDER BY DEA.LOCATION, DEA.DATE) AS ROLLINGPEOPLEVACCINATED
+				FROM CovidDeaths DEA
+				INNER JOIN CovidVaccinations VAC
+					ON DEA.location = VAC.location AND DEA.date = VAC.date
+				WHERE DEA.continent IS NOT NULL
+				)
+SELECT *, ROUND(RollingPeopleVaccinated/population * 100,2) AS PercentagePeopleVaccinated
+FROM PopvsVac
+ORDER BY 2,3 ASC;
+```
