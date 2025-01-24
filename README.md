@@ -8,7 +8,11 @@ This portfolio demonstrates SQL expertise in analysing COVID-19 data, focusing o
 - **Advanced SQL Techniques:** Utilisation of CTEs, window functions, temporary tables, and joins to extract meaningful patterns from large datasets.
 
 ## Tools and Skills
-- SQL (CTEs, window functions, joins)
-- Data analysis and reporting
-- Vaccination efficiency modelling
-- Population-based health metrics
+- Excel - data cleaning [Download here](https://www.microsoft.com)
+  - [Download here](https://www.microsoft.com)
+- SQL - data analysis [Download here](https://www.microsoft.com)
+- Power BI - creating the report [Download here](https://www.microsoft.com)
+
+  ## Data Sources
+  1. Covid_Deaths
+  2. Covid_Vaccinations
