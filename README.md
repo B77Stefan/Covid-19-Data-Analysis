@@ -19,7 +19,7 @@ This portfolio demonstrates SQL expertise in analysing COVID-19 data, focusing o
 ### Tools and Skills
 - Excel - data cleaning [Download here](https://www.microsoft.com)
   - [Download here](https://www.microsoft.com)
-- SQL - data analysis [Download here](https://www.microsoft.com)
+- SQL - data analysis [Download here](https://github.com/B77Stefan/Covid-19-Data-SQL-Analysis/blob/2818a5e5c763e4af4ff465813c374069baa7da2c/SQLQuery2.sql)
 - Power BI - creating the report [Download here](https://www.microsoft.com)
 
 ### Data Sources
