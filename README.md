@@ -10,6 +10,8 @@
 ### Project Overview
 This portfolio demonstrates SQL expertise in analysing *COVID-19 data*, focusing on key metrics such as infection rates, vaccination efficiency, and the relationship between population and health outcomes. Key techniques include advanced SQL functions like *CTEs*, *joins*, *window functions*, and *temporary* tables to generate actionable insights for global health trends and vaccination strategies. 😄
 
+---
+
 ### Key Features 
 - **Infection Rate & Vaccination Analysis**: Comparative analysis of infection rates versus population and vaccination coverage.
   - This is a subpoint
