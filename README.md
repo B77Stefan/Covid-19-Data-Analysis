@@ -49,6 +49,7 @@ ORDER BY 2,3 ASC;
 
 ### Results and findings
 The analysis results are summarised as follows:
+![Test Chart](https://github.com/B77Stefan/Covid-19-Data-SQL-Analysis/blob/70fb6f0419b85cb994a14c9e029fcd27d91f25e5/test_file.png)
 
 ### Recommendations
 Based on the analysis results, we recommend the following:
