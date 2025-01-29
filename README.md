@@ -54,7 +54,10 @@ ORDER BY 2,3 ASC;
 
 ### Results and findings
 The analysis results are summarised as follows:
+
 ![Test Chart](https://github.com/B77Stefan/Covid-19-Data-SQL-Analysis/blob/70fb6f0419b85cb994a14c9e029fcd27d91f25e5/test_file.png)
+## [Tableau Dashboard](https://public.tableau.com/views/Covid19_Project_17379884039100/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+![Covid-19 Dashboard](https://github.com/B77Stefan/Covid-19-Data-Analysis/blob/f7b99e6f13235a46452cb43939563b13357a2d0d/Tableau%20Dashboard.png)
 
 ### Recommendations
 Based on the analysis results, we recommend the following:
